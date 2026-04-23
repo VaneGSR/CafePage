@@ -13,9 +13,9 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-xl mb-4 font-serif text-secondary">Proyecto Académico</h4>
             <ul className="space-y-3 text-background/80">
-              <li>Nombre del Alumno: <span className="font-medium text-white">[Tu Nombre Aquí]</span></li>
-              <li>Materia: <span className="font-medium text-white">[Nombre de tu Materia]</span></li>
-              <li>Profesor: <span className="font-medium text-white">[Nombre de tu Profesor]</span></li>
+              <li>Nombre del Alumno: <span className="font-medium text-white">Saavedra Ramirez Vanessa Guadalupe</span></li>
+              <li>Materia: <span className="font-medium text-white">Desarrollo de Aplicaciones web en la nube y moviles</span></li>
+              <li>Profesor: <span className="font-medium text-white">Gutierrez Cobian Zeus Emanuel</span></li>
             </ul>
           </div>
           
