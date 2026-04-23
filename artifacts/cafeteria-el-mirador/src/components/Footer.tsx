@@ -28,6 +28,7 @@ export default function Footer() {
                 className="max-w-full max-h-full object-contain"
               />
             </div>
+            <p className="mt-3 text-sm font-medium text-white w-full text-left lg:text-center">Calendario 2026A</p>
           </div>
         </div>
         
