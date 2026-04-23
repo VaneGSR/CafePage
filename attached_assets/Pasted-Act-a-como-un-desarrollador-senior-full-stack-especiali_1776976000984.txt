@@ -1,0 +1,120 @@
+Actúa como un desarrollador senior full-stack especializado en React y diseño moderno con Tailwind CSS. Tu tarea es generar una aplicación web completa desde cero para una cafetería, incluyendo todos los componentes, estilos y estructura del proyecto en un solo flujo.
+
+### 📌 Información del Proyecto
+
+Nombre del negocio: Cafetería El Mirador
+Concepto: Cafetería temática tipo "casa del árbol", acogedora, con ambiente rústico-moderno. Es famosa por sus pizzas, hamburguesas y café, además de ofrecer una vista panorámica espectacular de la ciudad.
+Ubicación: Constitución de 1857 3876, El Tapatío, Tlaquepaque, Jalisco
+
+---
+
+### ⚙️ Requisitos Técnicos
+
+* Usa **React** (con componentes funcionales).
+* Usa **Tailwind CSS** para todos los estilos.
+* Diseño completamente **responsive (Mobile First)**.
+* Optimiza especialmente para pantallas grandes tipo **iPhone 17 Pro Max**.
+* Estructura clara de componentes reutilizables.
+* Código limpio, bien organizado y listo para producción.
+
+---
+
+### 🎨 Estética y Diseño
+
+* Estilo: Acogedor, rústico pero moderno.
+* Colores principales:
+
+  * Café (madera)
+  * Verde bosque
+  * Naranja cálido
+* Tipografía elegante y legible.
+* Uso de sombras suaves, bordes redondeados y diseño limpio.
+* Imágenes atractivas (puedes usar placeholders si es necesario).
+
+---
+
+### 🧩 Secciones que debe incluir la página
+
+#### 1. Hero Section
+
+* Imagen de fondo con vista panorámica.
+* Título llamativo: "Cafetería El Mirador"
+* Subtítulo atractivo.
+* Botón de llamada a la acción (ej: "Ver Menú" o "Reservar").
+
+---
+
+#### 2. Menú
+
+* Sección visualmente atractiva.
+* Categorías:
+
+  * Pizzas 🍕
+  * Hamburguesas 🍔
+  * Café ☕
+* Cada producto debe incluir:
+
+  * Nombre
+  * Descripción breve
+  * Precio
+* Diseño tipo cards con hover effects.
+
+---
+
+#### 3. Ubicación
+
+* Integrar este enlace de Google Maps:
+  https://maps.app.goo.gl/YTx2Ch2yn4gQWkF18
+* Mostrar un mapa embebido o un contenedor visual claro con botón para abrir el mapa.
+* Mostrar la dirección completa.
+
+---
+
+#### 4. Formulario de Contacto
+
+* Campos:
+
+  * Nombre
+  * Correo electrónico
+  * Mensaje
+* Botón de enviar.
+* Validación básica.
+* Simulación de envío (no backend necesario).
+
+---
+
+#### 5. Footer Personalizado (OBLIGATORIO)
+
+Debe incluir exactamente:
+
+Nombre del Alumno: [Tu Nombre Aquí]
+Materia: [Nombre de tu Materia]
+Profesor: [Nombre de tu Profesor]
+Logo: Espacio reservado para logo de CUCEI (puede ser placeholder o img)
+
+---
+
+### 📁 Estructura del Proyecto
+
+Genera:
+
+* App principal
+* Componentes separados:
+
+  * Hero.jsx
+  * Menu.jsx
+  * Location.jsx
+  * ContactForm.jsx
+  * Footer.jsx
+* Archivo de estilos con Tailwind configurado correctamente.
+
+---
+
+### 🚀 Requisitos adicionales
+
+* Todo debe funcionar desde el primer render.
+* No omitir ningún componente.
+* Asegurar que el diseño se vea profesional y moderno.
+* Código listo para copiar, ejecutar y desplegar directamente en Replit.
+
+Genera TODO el código necesario en un solo resultado.

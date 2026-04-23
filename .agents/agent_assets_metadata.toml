@@ -1,0 +1,74 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "GCUtcsPDPwHKfvgEf_rWJ"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/pizza_1.jpg"
+type = "image"
+title = "Wood fired pizza rustic table artisan delicious photography dark moody lighting"
+
+[[outputs]]
+id = "Z6edwRE_aeZVYITZUgYbu"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/pizza_2.jpg"
+type = "image"
+title = "Wood fired pizza rustic table artisan delicious photography dark moody lighting"
+
+[[outputs]]
+id = "rSqdrBiPEy-gHZEm-zCMK"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/pizza_3.jpg"
+type = "image"
+title = "Wood fired pizza rustic table artisan delicious photography dark moody lighting"
+
+[[outputs]]
+id = "YqcjFnBzmKJe5mQ1HXW25"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/burger_1.jpg"
+type = "image"
+title = "Gourmet burger brioche bun rustic dark wood table food photography"
+
+[[outputs]]
+id = "RTEk1GBWVFYyRoi0PN3bR"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/burger_2.jpg"
+type = "image"
+title = "Gourmet burger brioche bun rustic dark wood table food photography"
+
+[[outputs]]
+id = "D_hqg1t1GOj0-Z4klDKZp"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/burger_3.jpg"
+type = "image"
+title = "Gourmet burger brioche bun rustic dark wood table food photography"
+
+[[outputs]]
+id = "3MHbyRK5Lq8KZ7pGs6_IM"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/coffee_1.jpg"
+type = "image"
+title = "Specialty coffee latte art espresso rustic cafe wooden table warm lighting"
+
+[[outputs]]
+id = "omFh48wJAAlCtcuSjDA4p"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/coffee_2.jpg"
+type = "image"
+title = "Specialty coffee latte art espresso rustic cafe wooden table warm lighting"
+
+[[outputs]]
+id = "ij5zygYNsl79-1grMpDM-"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/coffee_3.jpg"
+type = "image"
+title = "Specialty coffee latte art espresso rustic cafe wooden table warm lighting"
+
+[[outputs]]
+id = "DarYdwnyZQqkEn2A8ORE8"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/coffee_4.jpg"
+type = "image"
+title = "Specialty coffee latte art espresso rustic cafe wooden table warm lighting"
+
+[[outputs]]
+id = "LI1ZqmB4Gxvt9eHBg46os"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/interior.jpg"
+type = "image"
+title = "Cozy wooden cabin interior rustic cafe treehouse string lights warm atmosphere dusk"
+
+[[outputs]]
+id = "eNj0cn-M4GqQ3w6VWyACo"
+uri = "file://artifacts/cafeteria-el-mirador/public/images/hero-view.jpg"
+type = "image"
+title = "sunset city view from balcony"

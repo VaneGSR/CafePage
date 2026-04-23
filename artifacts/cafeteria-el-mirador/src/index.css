@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-popover-border: hsl(var(--popover-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary-border: var(--primary-border);
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-secondary-border: var(--secondary-border);
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-muted-border: var(--muted-border);
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-accent-border: var(--accent-border);
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-destructive-border: var(--destructive-border);
+
+  --font-sans: var(--app-font-sans);
+  --font-serif: var(--app-font-serif);
+  --font-mono: var(--app-font-mono);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+/* LIGHT MODE - Warm wood tones, forest green, warm orange */
+:root {
+  --button-outline: rgba(0,0,0, .10);
+  --badge-outline: rgba(0,0,0, .05);
+  --opaque-button-border-intensity: -8;
+  --elevate-1: rgba(0,0,0, .03);
+  --elevate-2: rgba(0,0,0, .08);
+
+  /* Background: Warm beige (#FAF6F0) */
+  --background: 36 33% 96%;
+  /* Foreground: Deep brown (#2D1E12) */
+  --foreground: 27 43% 12%;
+
+  /* Border: Soft wood tone (#EADFC8) */
+  --border: 36 43% 85%;
+
+  /* Card: Slightly lighter than background (#FDFBF7) */
+  --card: 36 33% 98%;
+  --card-foreground: 27 43% 12%;
+  --card-border: 36 43% 85%;
+
+  /* Popover */
+  --popover: 36 33% 98%;
+  --popover-foreground: 27 43% 12%;
+  --popover-border: 36 43% 85%;
+
+  /* Primary: Forest Green (#2A4B3C) */
+  --primary: 153 28% 23%;
+  --primary-foreground: 36 33% 98%;
+
+  /* Secondary: Warm Orange (#E07A5F) */
+  --secondary: 13 67% 63%;
+  --secondary-foreground: 36 33% 98%;
+
+  /* Muted: Soft beige/tan */
+  --muted: 36 20% 90%;
+  --muted-foreground: 27 20% 40%;
+
+  /* Accent: Warm wood glow */
+  --accent: 36 43% 85%;
+  --accent-foreground: 27 43% 12%;
+
+  /* Destructive */
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --input: 36 43% 85%;
+  --ring: 13 67% 63%;
+
+  --app-font-sans: 'Plus Jakarta Sans', sans-serif;
+  --app-font-serif: 'Fraunces', serif;
+  --app-font-mono: Menlo, monospace;
+  
+  --radius: 1rem; 
+}
+
+.dark {
+  --button-outline: rgba(255,255,255, .10);
+  --badge-outline: rgba(255,255,255, .05);
+  --opaque-button-border-intensity: 9;
+  --elevate-1: rgba(255,255,255, .04);
+  --elevate-2: rgba(255,255,255, .09);
+
+  --background: 27 43% 12%;
+  --foreground: 36 33% 96%;
+
+  --border: 27 20% 20%;
+
+  --card: 27 30% 15%;
+  --card-foreground: 36 33% 96%;
+  --card-border: 27 20% 20%;
+
+  --popover: 27 30% 15%;
+  --popover-foreground: 36 33% 96%;
+  --popover-border: 27 20% 20%;
+
+  --primary: 153 28% 35%;
+  --primary-foreground: 36 33% 96%;
+
+  --secondary: 13 67% 63%;
+  --secondary-foreground: 36 33% 96%;
+
+  --muted: 27 20% 20%;
+  --muted-foreground: 36 20% 70%;
+
+  --accent: 27 30% 20%;
+  --accent-foreground: 36 33% 96%;
+
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 36 33% 96%;
+
+  --input: 27 20% 20%;
+  --ring: 13 67% 63%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
