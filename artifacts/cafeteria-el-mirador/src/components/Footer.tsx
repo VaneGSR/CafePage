@@ -21,8 +21,12 @@ export default function Footer() {
           
           <div className="flex flex-col items-start lg:items-center">
             <h4 className="font-bold text-xl mb-4 font-serif text-secondary w-full text-left lg:text-center">Logo CUCEI</h4>
-            <div className="w-32 h-32 bg-white/10 border-2 border-dashed border-white/30 rounded-xl flex items-center justify-center">
-              <span className="text-white/50 text-sm font-medium text-center px-2">Espacio para Logo CUCEI</span>
+            <div className="w-32 h-32 bg-white rounded-xl flex items-center justify-center p-3">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Escudo_UdeG.svg/960px-Escudo_UdeG.svg.png"
+                alt="Logo CUCEI - Universidad de Guadalajara"
+                className="max-w-full max-h-full object-contain"
+              />
             </div>
           </div>
         </div>
